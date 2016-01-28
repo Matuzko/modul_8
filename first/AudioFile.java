@@ -11,4 +11,9 @@ public class AudioFile extends File {
         super.openFile();
         System.out.println("My type is "+this.getFormat()+" and my size "+this.getSize()+"Kb");
     }
+    private int listSort(AudioFile a){
+        return this.getSize();
+
+    }
+
 }

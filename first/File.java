@@ -24,6 +24,15 @@ public abstract class File {
         this.size = size;
     }
 
+    @Override
+    public String toString() {
+        return "File{" +
+                "size=" + size +
+                ", format='" + format + '\'' +
+                ", empty=" + empty +
+                '}';
+    }
+
     public String getFormat() {
         return format;
     }
